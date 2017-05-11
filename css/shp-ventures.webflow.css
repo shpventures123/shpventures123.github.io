@@ -71,6 +71,7 @@
 
 .text-block {
   display: block;
+  margin-bottom: 15px;
   border-bottom: 1px none #000;
   color: #000;
   font-weight: 700;
@@ -91,7 +92,7 @@
 }
 
 .text-block-2 {
-  margin-top: 30px;
+  margin-top: 10px;
   color: #000;
   font-weight: 700;
   text-align: center;
@@ -183,6 +184,13 @@
   align-items: stretch;
 }
 
+.text-block-5 {
+  margin-top: 74px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media (max-width: 767px) {
   .image {
     display: block;
@@ -244,5 +252,11 @@
     margin-bottom: 11px;
     padding-right: 32px;
     padding-left: 32px;
+  }
+  .image-7 {
+    margin-bottom: 10px;
+  }
+  .image-8 {
+    margin-bottom: 10px;
   }
 }
