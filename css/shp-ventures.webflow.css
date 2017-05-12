@@ -71,7 +71,7 @@
 
 .text-block {
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
   border-bottom: 1px none #000;
   color: #000;
   font-weight: 700;
@@ -189,6 +189,10 @@
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+}
+
+.row {
+  margin-top: 20px;
 }
 
 @media (max-width: 767px) {
